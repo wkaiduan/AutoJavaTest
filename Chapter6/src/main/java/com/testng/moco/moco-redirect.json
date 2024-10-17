@@ -1,8 +1,20 @@
-{
+[
+  {
   "description":"重定向到指定网站",
   "request":{
     "method":"get",
     "uri":"/login_redirect"
   },
-  "redirectTo":"https://www.baidu.com"
-}
+  "redirectTo":"/redirect/new"
+  },
+  {
+    "description":"这是被重定向到的请求页面",
+    "request":{
+    "method":"get",
+    "uri":"/redirect/new"
+    },
+    "response": {
+      "text": "重定向成功新的页面"
+      }
+    }
+]

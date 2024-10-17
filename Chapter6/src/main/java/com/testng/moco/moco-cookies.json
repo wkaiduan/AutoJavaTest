@@ -1,0 +1,28 @@
+[
+  {
+    "description":"xsdjksdj",
+    "request":{
+      "uri":"/get/with/cookies",
+      "method":"get",
+      "cookies": {
+        "login":"19138284SJKHHJDHJSJFFJCS3884BCNBSNMNCBSAHSVB2U1438298"
+      }
+    },
+    "response": {
+      "text":"这是一个需要cookies信息才能访问的get请求"
+    }
+  },
+  {
+    "description":"xsdjksdj",
+    "request":{
+      "uri":"/getCookies",
+      "method":"get",
+      "cookies":{
+        "login":"111118"
+      }
+    },
+    "response":{
+      "text":"这是一个需要cookies信息才能访问的get请求"
+    }
+  }
+]
