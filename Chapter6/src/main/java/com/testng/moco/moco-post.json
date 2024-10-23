@@ -9,7 +9,6 @@
       "text": "hello world"
     }
   },
-
   {
     "description": "定义请求参数，通过queries参数定义",
     "request": {
@@ -74,14 +73,14 @@
       "uri": "/index2"
     },
     "response": {
-      "status": 500,
+      "status": "500",
       "text": "error"
     }
   },
   {
     "description": "定义JSON响应数据，通过json参数定义",
     "request": {
-      "uri": "/login"
+      "uri": "/loginJson"
     },
     "response": {
       "headers": {
@@ -91,9 +90,30 @@
         "code": "10000",
         "msg": "操作成功",
         "data": {
-          "uid": 2,
-          "token": "xxx"
+          "uid": "2",
+          "token": "x32321323x5556643435443334ffvdsdccvddx"
         }
+      }
+    }
+    },
+  {
+    "description": "这是一个带cookies信息的post请求",
+    "request": {
+      "uri": "/post/with/cookies",
+      "method": "post",
+      "cookies": {
+        "JSESSIONID": "76655544djaskjkfjsjdjds"
+      },
+      "json": {
+        "name": "wangwu",
+        "age": "20"
+      }
+    },
+    "response": {
+      "status": "200",
+      "json": {
+        "text": "success",
+        "status": "1"
       }
     }
   }

@@ -22,16 +22,19 @@ public class MyCookiesGet {
     private ResourceBundle bundle;
 
     private CookieStore store;
+    //用来存储cookies信息的变量
     @BeforeTest
     public void beforeTest(){
         bundle = ResourceBundle.getBundle("application", Locale.CHINA);
-        url =bundle.getString("test.url");
+        url =bundle.getString("test.uri");
     }
-
+    @Test
     public void testGetCookies() throws IOException {
         String result;
-        String url =bundle.getString("getCookies.url");
-        String testurl=this.url+url;
+        //从配置文件中 拼接测试的url
+        String uri =bundle.getString("getCookies.uri");
+        String testurl=this.url+uri;
+        //测试逻辑代码书写
         HttpGet get = new HttpGet(testurl);
         DefaultHttpClient client=new DefaultHttpClient();
         HttpResponse response=client.execute(get);
@@ -39,26 +42,25 @@ public class MyCookiesGet {
         System.out.println(result);
 
         //获取响应的cookies信息
-        CookieStore store= client.getCookieStore();
+        this.store= client.getCookieStore();
         List<Cookie> cookieList = store.getCookies();
 
         for(Cookie cookie : cookieList){
             String name =cookie.getName();
             String value =cookie.getValue();
-
-            System.out.println("cookie name ="+name+"; cookie value =" +value);
+            System.out.println("cookie name = " +name+"; cookie value =" +value);
         }
     }
     @Test(dependsOnMethods = {"testGetCookies"})
     public void testGetWithCookies() throws IOException {
-        String  uri =bundle.getString("test.get.with.coolies");
-        String testurl=this.url+url;
+        String  uri =bundle.getString("test.get.with.cookies");
+        String testurl=this.url+uri;
         HttpGet get = new HttpGet(testurl);
         DefaultHttpClient client =new DefaultHttpClient();
         //设置cookies信息
         client.setCookieStore(this.store);
 
-       HttpResponse response= client .execute(get);
+        HttpResponse response= client.execute(get);
 
        //获取响应状态码
         int statusCode = response.getStatusLine().getStatusCode();

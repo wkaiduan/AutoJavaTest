@@ -1,27 +1,34 @@
 [
   {
-    "description":"xsdjksdj",
+    "description":"第一个请求cookies信息才能访问的get请求",
     "request":{
-      "uri":"/get/with/cookies",
-      "method":"get",
-      "cookies": {
-        "login":"19138284SJKHHJDHJSJFFJCS3884BCNBSNMNCBSAHSVB2U1438298"
-      }
+      "uri":"/getCookies",
+      "method":"get"
     },
-    "response": {
+    "response":{
+      "cookies": {
+        "login":"484538923812idshjfgdfndkfdjkjdfv35743272"
+      },
+      "headers":{
+        "Content-Type":"text/html;charset=utf-8"
+      },
       "text":"这是一个需要cookies信息才能访问的get请求"
     }
   },
+
   {
-    "description":"xsdjksdj",
+    "description":"第二个请求cookies信息才能访问的get请求",
     "request":{
-      "uri":"/getCookies",
-      "method":"get",
-      "cookies":{
-        "login":"111118"
-      }
+      "uri":"/get/with/cookies",
+      "method":"get"
     },
-    "response":{
+    "response": {
+      "cookies": {
+        "login":"2349399i23aznfdnmeedwqkjnvnlsn58349329233"
+      },
+      "headers":{
+        "Content-Type":"text/html;charset=utf-8"
+      },
       "text":"这是一个需要cookies信息才能访问的get请求"
     }
   }

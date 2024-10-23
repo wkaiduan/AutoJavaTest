@@ -1,0 +1,48 @@
+2024-10-22 15:57:37.494 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:02:15.895 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:03:06.924 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:06:00.529 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:07:03.408 [http-nio-8080-exec-1] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-22 16:08:25.512 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:09:42.272 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:09:57.171 [http-nio-8080-exec-1] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-22 16:12:09.843 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:12:17.877 [http-nio-8080-exec-1] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-22 16:14:25.923 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:14:32.991 [http-nio-8080-exec-1] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-22 16:15:41.860 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:15:51.403 [http-nio-8080-exec-1] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-22 16:16:20.114 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:16:25.092 [http-nio-8080-exec-1] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-22 16:16:52.502 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:17:01.863 [http-nio-8080-exec-1] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-22 16:18:33.278 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:18:52.455 [http-nio-8080-exec-1] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-22 16:27:42.015 [HikariPool-1 housekeeper] WARN  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m49s347ms131µs300ns).
+2024-10-22 16:49:30.393 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:49:36.093 [http-nio-8080-exec-1] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-22 16:52:15.426 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:52:20.191 [http-nio-8080-exec-1] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-22 16:52:55.583 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:53:01.162 [http-nio-8080-exec-1] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-22 16:53:25.535 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:53:30.250 [http-nio-8080-exec-1] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-22 16:54:03.511 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 16:54:08.513 [http-nio-8080-exec-1] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-22 17:57:45.216 [HikariPool-1 housekeeper] WARN  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m5s276ms729µs700ns).
+2024-10-22 19:49:29.206 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 19:51:44.644 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 19:52:54.479 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 19:54:29.268 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 19:59:01.030 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 20:02:28.929 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 20:03:55.639 [http-nio-8080-exec-5] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-22 20:10:51.347 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 20:11:34.054 [http-nio-8080-exec-4] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-22 20:16:40.112 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 20:20:38.057 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 20:25:10.885 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 20:26:26.164 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 20:33:08.894 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 20:34:27.225 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2024-10-22 20:34:44.643 [http-nio-8080-exec-4] WARN  [com.zaxxer.hikari.util.DriverDataSource] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
